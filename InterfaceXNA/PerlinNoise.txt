@@ -1,0 +1,211 @@
+//Aufruf
+
+ terrain = GenerateWhiteNoise(XMAX,YMAX);
+ for (int l = 1; l < 5; l++)
+ {
+ terrain = GeneratePerlinNoise(terrain, l);
+ }
+
+//Draw
+
+for (i = 0; i < XMAX; i++)
+{
+	for(j = 0; j < YMAX;j++)
+	{    
+		spriteBatch.Draw(pixel, new Rectangle(i,j,1,1), getcolor(i,j));
+	}
+}
+
+
+
+
+
+
+public Color getcolor(int x, int y)
+        {
+            Color backcol;
+
+            const double waterline = 0.2;
+            const double sandline = 0.4;
+            const double greenlandline = 0.6;
+            const double stoneline = 0.8;
+            const double snowline = 0.9;
+
+            Color stonecol = Color.Gray;
+            Color snowcol = Color.White;
+            Color deepwatercol = Color.DarkBlue;
+            Color watercol = Color.Blue;
+            Color sandcol = Color.Yellow;
+            Color grascol = Color.Green;
+
+            if (terrain[x, y] > waterline)
+            {
+                if (terrain[x, y] > sandline)
+                {
+                    if (terrain[x, y] > greenlandline)
+                    {
+                        if (terrain[x, y] > stoneline)
+                        {
+                            if (terrain[x, y] > snowline)
+                            {
+                                backcol = snowcol;
+                            }
+                            else
+                            {
+                                backcol = stonecol;
+                            }
+                        }
+                        else
+                        {
+                            backcol = grascol;
+                        }
+                    }
+                    else
+                    {
+                        backcol = sandcol;
+                    }
+                }
+                else
+                {
+                    backcol = watercol;
+                }
+            }
+            else
+            {
+                backcol = deepwatercol;
+            }
+
+            return backcol;
+        }
+
+
+        #region WorldGenerator
+
+        float[,] GenerateWhiteNoise(int width, int height)
+        {
+            Random random = new Random(0); //Seed to 0 for testing
+            float[,] noise = new float[width, height];
+
+            for (int i = 0; i < width; i++)
+            {
+                for (int j = 0; j < height; j++)
+                {
+                    noise[i, j] = (float)random.NextDouble() % 1;
+                }
+            }
+
+            return noise;
+        }
+
+
+
+
+        float[,] GenerateSmoothNoise(float[,] baseNoise, int octave)
+        {
+            int width = baseNoise.GetLength(0);
+            int height = baseNoise.GetLength(1);
+
+            float[,] smoothNoise = new float[width, height];
+
+            int samplePeriod = 8 << octave; // calculates 2 ^ k
+            float sampleFrequency = 1.0f / samplePeriod;
+
+            for (int i = 0; i < width; i++)
+            {
+                //calculate the horizontal sampling indices
+                int sample_i0 = (i / samplePeriod) * samplePeriod;
+                int sample_i1 = (sample_i0 + samplePeriod) % width; //wrap around
+                float horizontal_blend = (i - sample_i0) * sampleFrequency;
+
+                for (int j = 0; j < height; j++)
+                {
+                    //calculate the vertical sampling indices
+                    int sample_j0 = (j / samplePeriod) * samplePeriod;
+                    int sample_j1 = (sample_j0 + samplePeriod) % height; //wrap around
+                    float vertical_blend = (j - sample_j0) * sampleFrequency;
+
+                    //blend the top two corners
+                    float top = Interpolate(baseNoise[sample_i0,sample_j0],
+                       baseNoise[sample_i1,sample_j0], horizontal_blend);
+
+                    //blend the bottom two corners
+                    float bottom = Interpolate(baseNoise[sample_i0,sample_j1],
+                       baseNoise[sample_i1,sample_j1], horizontal_blend);
+
+                    //final blend
+                    smoothNoise[i, j] = Interpolate(top, bottom, vertical_blend);
+                }
+            }
+
+            return smoothNoise;
+        }
+
+
+
+        float Interpolate(float x0, float x1, float alpha)
+        {
+            return x0 * (1 - alpha) + alpha * x1;
+        }
+
+
+
+        float[,] GeneratePerlinNoise(float[,] baseNoise, int octaveCount)
+        {
+            int width = baseNoise.GetLength(0);
+            int height = baseNoise.GetLength(1);
+
+            float[,,] smoothNoise = new float[octaveCount,width,height]; //an array of 2D arrays containing
+
+            float persistance = 0.5f;
+
+            //generate smooth noise
+            float[,] dummy = new float[width, height];
+
+            for (int i = 0; i < octaveCount; i++)
+            {
+                dummy = GenerateSmoothNoise(baseNoise, i);
+                for (int j = 0; j < width; j++)
+                {
+                    for (int k = 0; k < height; k++)
+                    {
+                        smoothNoise[i, j, k] = dummy[j, k];
+                    }
+                }
+            }
+
+            float[,] perlinNoise = new float[width, height];
+            float amplitude = 1.0f;
+            float totalAmplitude = 0.0f;
+
+            //blend noise together
+            for (int octave = octaveCount - 1; octave >= 0; octave--)
+            {
+                amplitude *= persistance;
+                totalAmplitude += amplitude;
+
+                for (int i = 0; i < width; i++)
+                {
+                    for (int j = 0; j < height; j++)
+                    {
+                        perlinNoise[i,j] += smoothNoise[octave,i,j] * amplitude;
+                    }
+                }
+            }
+
+            //normalisation
+            for (int i = 0; i < width; i++)
+            {
+                for (int j = 0; j < height; j++)
+                {
+                    perlinNoise[i, j] /= totalAmplitude;
+                }
+            }
+
+            return perlinNoise;
+        }
+
+
+
+
+     
+        #endregion

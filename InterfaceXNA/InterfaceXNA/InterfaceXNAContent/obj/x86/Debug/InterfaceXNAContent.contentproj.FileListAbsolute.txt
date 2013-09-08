@@ -1,0 +1,1 @@
+G:\C#\InterfaceXNA\InterfaceXNA\InterfaceXNAContent\obj\x86\Debug\ResolveAssemblyReference.cache
