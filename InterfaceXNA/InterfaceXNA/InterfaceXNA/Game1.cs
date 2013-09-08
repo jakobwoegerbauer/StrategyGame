@@ -125,8 +125,8 @@ namespace InterfaceXNA
             //Buttons
             //Schließen-Button
             btnPause = new Button(this);
-            btnPause.Texture = Content.Load<Texture2D>("btnPause");
-            btnPause.TextureSel = Content.Load<Texture2D>("btnPauseSel");
+            btnPause.Texture = Content.Load<Texture2D>("Buttons/btnPause");
+            btnPause.TextureSel = Content.Load<Texture2D>("Buttons/btnPauseSel");
             btnPause.Position = new Vector2(windowwidth - 30, 0);
             btnPause.IsVisible = false;
             btnPause.Clicked += btnclose_Clicked;
@@ -134,8 +134,8 @@ namespace InterfaceXNA
 
             //Spiel-Starten-Button
             btnSpStart = new Button(this);
-            btnSpStart.Texture = Content.Load<Texture2D>("btnSpielStarten");
-            btnSpStart.TextureSel = Content.Load<Texture2D>("btnSpielStartenSel");
+            btnSpStart.Texture = Content.Load<Texture2D>("Buttons/btnSpielStarten");
+            btnSpStart.TextureSel = Content.Load<Texture2D>("Buttons/btnSpielStartenSel");
             btnSpStart.Position = new Vector2((windowwidth / 2) - 150, 200);
             btnSpStart.IsVisible = true;
             btnSpStart.Clicked += btnSpStarten_Clicked;
@@ -143,8 +143,8 @@ namespace InterfaceXNA
 
             //Beenden-Button
             btnBeenden = new Button(this);
-            btnBeenden.Texture = Content.Load<Texture2D>("btnBeenden");
-            btnBeenden.TextureSel = Content.Load<Texture2D>("btnBeendenSel");
+            btnBeenden.Texture = Content.Load<Texture2D>("Buttons/btnBeenden");
+            btnBeenden.TextureSel = Content.Load<Texture2D>("Buttons/btnBeendenSel");
             btnBeenden.Position = new Vector2((windowwidth / 2) - 150, 320);
             btnBeenden.IsVisible = true;
             btnBeenden.Clicked += btnBeenden_Clicked;
@@ -152,8 +152,8 @@ namespace InterfaceXNA
 
             //Spiel-Fortsetzen-Button
             btnSpFortsetzen = new Button(this);
-            btnSpFortsetzen.Texture = Content.Load<Texture2D>("btnSpielFortsetzen");
-            btnSpFortsetzen.TextureSel = Content.Load<Texture2D>("btnSpielFortsetzenSel");
+            btnSpFortsetzen.Texture = Content.Load<Texture2D>("Buttons/btnSpielFortsetzen");
+            btnSpFortsetzen.TextureSel = Content.Load<Texture2D>("Buttons/btnSpielFortsetzenSel");
             btnSpFortsetzen.Position = new Vector2((windowwidth / 2) - 150, 230);
             btnSpFortsetzen.IsVisible = true;
             btnSpFortsetzen.Clicked += btnSpFortsetzen_Clicked;
@@ -161,8 +161,8 @@ namespace InterfaceXNA
 
             //Menü-Button
             btnMenu = new Button(this);
-            btnMenu.Texture = Content.Load<Texture2D>("btnMenu");
-            btnMenu.TextureSel = Content.Load<Texture2D>("btnMenuSel");
+            btnMenu.Texture = Content.Load<Texture2D>("Buttons/btnMenu");
+            btnMenu.TextureSel = Content.Load<Texture2D>("Buttons/btnMenuSel");
             btnMenu.Position = new Vector2((windowwidth / 2) - 150, 290);
             btnMenu.IsVisible = true;
             btnMenu.Clicked += btnMenu_Clicked;
@@ -170,8 +170,8 @@ namespace InterfaceXNA
 
             //Spiel-Beitreten-Button
             btnSpBeitreten = new Button(this);
-            btnSpBeitreten.Texture = Content.Load<Texture2D>("btnSpielBeitreten");
-            btnSpBeitreten.TextureSel = Content.Load<Texture2D>("btnSpielBeitretenSel");
+            btnSpBeitreten.Texture = Content.Load<Texture2D>("Buttons/btnSpielBeitreten");
+            btnSpBeitreten.TextureSel = Content.Load<Texture2D>("Buttons/btnSpielBeitretenSel");
             btnSpBeitreten.Position = new Vector2((windowwidth / 2) - 150, 260);
             btnSpBeitreten.IsVisible = true;
             btnSpBeitreten.Clicked += btnSpBeitreten_Clicked;

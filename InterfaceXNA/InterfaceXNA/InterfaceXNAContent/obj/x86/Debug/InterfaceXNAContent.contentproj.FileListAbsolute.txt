@@ -1,1 +1,2 @@
 G:\C#\InterfaceXNA\InterfaceXNA\InterfaceXNAContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNAContent\obj\x86\Debug\ResolveAssemblyReference.cache

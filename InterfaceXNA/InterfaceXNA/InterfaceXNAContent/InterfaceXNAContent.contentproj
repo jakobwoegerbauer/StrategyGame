@@ -63,28 +63,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnSpielStarten.jpg">
+    <Compile Include="Buttons\btnSpielStarten.jpg">
       <Name>btnSpielStarten</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnSpielStartenSel.jpg">
+    <Compile Include="Buttons\btnSpielStartenSel.jpg">
       <Name>btnSpielStartenSel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnBeenden.jpg">
+    <Compile Include="Buttons\btnBeenden.jpg">
       <Name>btnBeenden</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnBeendenSel.jpg">
+    <Compile Include="Buttons\btnBeendenSel.jpg">
       <Name>btnBeendenSel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -98,56 +98,56 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnSpielFortsetzen.jpg">
+    <Compile Include="Buttons\btnSpielFortsetzen.jpg">
       <Name>btnSpielFortsetzen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnSpielFortsetzenSel.jpg">
+    <Compile Include="Buttons\btnSpielFortsetzenSel.jpg">
       <Name>btnSpielFortsetzenSel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnMenu.jpg">
+    <Compile Include="Buttons\btnMenu.jpg">
       <Name>btnMenu</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnMenuSel.jpg">
+    <Compile Include="Buttons\btnMenuSel.jpg">
       <Name>btnMenuSel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnPause.jpg">
+    <Compile Include="Buttons\btnPause.jpg">
       <Name>btnPause</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnPauseSel.jpg">
+    <Compile Include="Buttons\btnPauseSel.jpg">
       <Name>btnPauseSel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnSpielBeitreten.jpg">
+    <Compile Include="Buttons\btnSpielBeitreten.jpg">
       <Name>btnSpielBeitreten</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="btnSpielBeitretenSel.jpg">
+    <Compile Include="Buttons\btnSpielBeitretenSel.jpg">
       <Name>btnSpielBeitretenSel</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>

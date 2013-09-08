@@ -22,3 +22,27 @@ G:\C#\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\btnSpielBeitr
 G:\C#\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\btnSpielBeitretenSel.xnb
 G:\C#\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\pixel.xnb
 G:\C#\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\pixel2.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\textFont.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\HeadFont.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\blackrect.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnSpielStarten.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnSpielStartenSel.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnBeenden.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnBeendenSel.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Pause.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnSpielFortsetzen.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnSpielFortsetzenSel.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnMenu.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnMenuSel.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnPause.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnPauseSel.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnSpielBeitreten.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\Buttons\btnSpielBeitretenSel.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\pixel.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\Content\pixel2.xnb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\InterfaceXNA.exe
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\bin\x86\Debug\InterfaceXNA.pdb
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\obj\x86\Debug\InterfaceXNA.exe
+C:\Dokumente und Einstellungen\Hans und Maria\Eigene Dateien\GitHub\StrategyGame\InterfaceXNA\InterfaceXNA\InterfaceXNA\obj\x86\Debug\InterfaceXNA.pdb
